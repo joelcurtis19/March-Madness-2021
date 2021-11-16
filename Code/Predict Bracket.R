@@ -1,6 +1,6 @@
 library(tidyverse)
 
-root_path <- "C:/Users/Joel/Documents/Kaggle/March Madness/Men/2021/Stage_2/"
+root_path <- "March-Madness-2021/"
 sub_path <- paste(root_path, "Submission/sub_1.csv", sep = "")
 teams_path <- paste(root_path, "Input/MTeams.csv", sep = "")
 seeds_path <- paste(root_path, "Input/MNCAATourneySeeds.csv", sep = "")
