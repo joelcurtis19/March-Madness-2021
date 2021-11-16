@@ -2,7 +2,7 @@ rm(list=ls())
 
 library(tidyverse)
 
-root_path <- "C:/Users/Joel/OneDrive/Documents/Kaggle/March Madness/Men/2021/Stage_2/"
+root_path <- "March-Madness-2021/"
 
 
 output_path <- paste(root_path, "Output/", sep = "")
