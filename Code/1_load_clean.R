@@ -4,7 +4,7 @@ library(tidyverse)
 library(googledrive)
 library(data.table)
 
-root_path <- "March-Madness-2021/Data"
+root_path <- "March-Madness-2021/"
 
 input_path <- paste(root_path, "Input/", sep = "")
 file_names <- list.files(path = input_path, pattern = "*.csv")
