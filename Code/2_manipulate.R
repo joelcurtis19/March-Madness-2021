@@ -2,7 +2,7 @@ rm(list=ls())
 
 library(tidyverse)
 
-root_path <- "March-Madness-2021/Data"
+root_path <- "March-Madness-2021/"
 input_path <- paste(root_path, "Output/", sep = "")
 
 detailed_path <- paste(input_path, "detailedResults.csv", sep = "")
