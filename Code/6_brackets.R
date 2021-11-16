@@ -6,7 +6,7 @@ library(collegehoops)
 
 season <- 2021
 
-root_path <- "C:/Users/Joel/Documents/Kaggle/March Madness/Men/2021/Stage_2/"
+root_path <- "March-Madness-2021/"
 
 output_path <- paste(root_path, "Output/", sep = "")
 sub_path <- paste(root_path, "Submission/", "sub_1.csv", sep = "")
