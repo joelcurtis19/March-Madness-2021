@@ -4,7 +4,7 @@ library(tidyverse)
 library(rvest)
 library(googledrive)
 
-root_path <- "C:/Users/Joel/Documents/Kaggle/March Madness/Men/2021/Stage_2/"
+root_path <- "March-Madness-2021/Data"
 output_path <- paste(root_path, "Output/", sep = "")
 
 
