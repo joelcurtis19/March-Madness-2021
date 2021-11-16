@@ -4,7 +4,7 @@ library(tidyverse)
 library(rvest)
 library(googledrive)
 
-root_path <- "March-Madness-2021/Data"
+root_path <- "March-Madness-2021/"
 output_path <- paste(root_path, "Output/", sep = "")
 
 
