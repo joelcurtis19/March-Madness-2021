@@ -4,7 +4,7 @@ library(tidyverse)
 library(googledrive)
 library(data.table)
 
-root_path <- "C:/Users/Joel/Documents/Kaggle/March Madness/Men/2021/Stage_2/"
+root_path <- "March-Madness-2021/Data"
 
 input_path <- paste(root_path, "Input/", sep = "")
 file_names <- list.files(path = input_path, pattern = "*.csv")
